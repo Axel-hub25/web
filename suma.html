@@ -1,0 +1,79 @@
+<html>
+   <head><title<Suma.html</title></head>
+
+<body background="ni.jpeg" widht="350" height="300">
+<center><img src="en.PNG" width="1200" height="120"></center><br>
+<p><font color=" black" size= "4" face="Tahoma"><center>COLEGIO DE ESTUDIOS CIENTIFICOS Y TECNOLOGICOS DEL ESTADO DE MEXICO PLANTEL IXTLAHUACA </center></font></p>
+
+<p><font color ="black" size="3" face="Tahoma"><center><strong>Elaborado por:</strong>Axel Gonzalez Bautista.<strong>fecha de Elaboracion:</strong>13 de marzo del 2024.<strong>Hora:</strong>7:42 a.m.
+
+<p><font color="black" size="4" face="Tahoma"><center><strong>Suma de 2 Numeros en HTML</strong></center><br>
+
+<script>
+function sumar(){
+var n1= parseInt(document.MyForm.txtNumero1.value);
+var n2= parseInt(document.MyForm.txtNumero2.value);
+document.MyForm.txtResultado.value=n1+n2;
+}
+</script>
+
+<script>
+function restar(){
+var n1= parseInt(document.MyForm.txtNumero1.value);
+var n2= parseInt(document.MyForm.txtNumero2.value);
+document.MyForm.txtResultado.value=n1-n2;
+}
+</script>
+
+<script>
+function multiplicar(){
+var n1= parseInt(document.MyForm.txtNumero1.value);
+var n2= parseInt(document.MyForm.txtNumero2.value);
+document.MyForm.txtResultado.value=n1*n2;
+}
+</script>
+
+<script>
+function dividir(){
+var n1= parseInt(document.MyForm.txtNumero1.value);
+var n2= parseInt(document.MyForm.txtNumero2.value);
+document.MyForm.txtResultado.value=n1/n2;
+}
+</script>
+
+<body>
+<center><table width= "1000" border="1">
+<form name="MyForm">
+<tr>
+<td width="200"><label>Dame el 1er Numero:</label></td>
+<td width="200"><input type="text" name="txtNumero1"></td>
+<td width="200" rowspan="4"><img src="mision.png"></td>
+</tr>
+
+<tr>
+<td><label>Dame el 2do Numero:</label></td>
+<td><input type="text" name="txtNumero2"></td>
+</tr>
+
+<tr>
+<td><label>Mostrar Resultado:</label></td>
+<td bgcolor="#99FFCC"><input type="text" name="txtResultado"></td>
+</tr>
+
+
+<tr>
+<td colspan="2" aling="center">
+<input type="button" value="SUMA" onclick="sumar()">
+<input type="button" value="RESTA" onclick="restar()">
+<input type="button" value="MULTIPLICACION" onclick="multiplicar()">
+<input type="button" value="DIVICION" onclick="dividir()"></td>
+</tr>
+
+</form>
+</table>
+</body>
+<center><br><table border="0" width= "1200"></br></center>
+<br><center><font color="blue"><font face ="century gothic"><center><img src="3.gif" widht="1200" height="325"><img src="4.gif" widht="1200" height="325G"></center></font color></center
+<center><table border="0" width= "1200"></center>
+</tr>
+</html>
